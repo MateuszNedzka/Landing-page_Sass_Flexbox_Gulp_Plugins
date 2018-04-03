@@ -1,20 +1,313 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Landing page</title>
-    <!-- build:css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- endbuild -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Landing page</title>
+	<link rel="stylesheet" href="css/main.css"> 
 </head>
 <body>
-    Witaj świecie
     
-    <!-- build:js -->
-    <script src="js/plugins.js"></script>
-    <script src="js/script.js"></script>
-    <!-- endbuild  -->
+	<!-- Navigation -->
+	<header>
+		<div class="container">
+			<nav class="navbar">
+				<h1 class="nav-logo"><a href="#">LOGO</a></h1>
+				<ul class="nav-menu">
+					<li><a href="#" class="menu-link-active">O nas</a></li>
+					<li><a href="#">Opinie</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Sklep</a></li>
+					<li><a href="#">Współpraca</a></li>
+					<li><a href="#">Kontakt</a></li>
+					<li><i class="fas fa-search"></i></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Slider -->
+	<section>
+		<ul class="slider">
+			<li>
+				<div class="container">
+					<div class="main-slider-content">
+						<h2>W pełni responsywny projekt</h2>
+						<p>Mobile first - Progressive Enhancement</p>
+						<button class="btn">Zobacz</button>
+						<img src="images/slider_1_phone.png" alt="Witryna w wersji mobilnej">
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="container">
+					<div class="main-slider-content">
+						<h2>Oparty na Sass i Flexbox</h2>
+						<p>Mobile first - Progressive Enhancement</p>
+						<button class="btn">Zobacz</button>
+						<img src="images/slider_2_tablet.png" alt="Witryna w wersji na tablet">
+					</div>
+				</div>
+			</li>
+		</ul>
+	</section>
+
+	<!-- Our services -->
+	<section>
+		<div class="container">
+			<div class="section-title">
+				<h2>Nasze usługi</h2>
+			</div>
+			<div class="row">
+				<div class="col">
+					<span><i class="fas fa-chart-line"></i></span>
+					<h3>SEO</h3>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, labore!</p>
+				</div>
+				<div class="col">
+					<span><i class="fas fa-edit"></i></span>
+					<h3>Projektowanie stron</h3>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, labore!</p>
+				</div>
+				<div class="col">
+					<span><i class="fas fa-laptop"></i></span>
+					<h3>Programowanie</h3>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, labore!</p>
+				</div>
+				<div class="col">
+					<span><i class="fab fa-earlybirds"></i></span>
+					<h3>Inne usługi</h3>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, labore!</p>	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Portfolio -->
+	<section>
+		<div class="container">
+			<div class="section-title">
+				<h2>Nasze portfolio</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aspernatur.</p>
+			</div>
+		</div>
+			
+		<div class="container">
+			<!-- FUTURE SLIDER.....................................................................................................................[7.4] -->
+		</div>
+	</section>
+	
+	<!-- Section content -->
+	<section>
+		<div class="container">
+			<div class="section-title">
+				<h2>Co jeszcze możemy i potrafimy zrobić</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aspernatur.</p>
+			</div>
+			<img src="images/desktop.png" alt="">
+		</div>
+	</section>
+
+	<!-- Section video -->
+	<section>
+		<div id="movie">
+		</div>
+		<div class="movie-content">
+			<h2>Nasz najnowszy projekt</h2>
+			<button class="btn">ZObacz więcej</button>
+		</div>
+		<div class="player">
+		</div>
+	</section>
+
+	<!-- Bar below section video -->
+	<section>
+		<div class="container">
+			<h2>Kliknij aby skontaktować się z nami</h2>
+			<button class="btn">Zobacz więcej</button>
+		</div>
+	</section>
+
+	<!-- Our advantages -->
+	<section>
+		<div class="container">
+			<div class="section-title">
+				<h2>Dlaczego warto skorzystać z naszych usług</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aspernatur.</p>
+			</div>
+			<div class="single-col">
+				<span><i class="fas fa-address-card"></i></span>
+				<div>
+					<h3>Doświadczony zespół</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quidem.</p>
+				</div>
+			</div>
+			<div class="single-col">
+				<span><i class="fab fa-angellist"></i></span>
+				<div>
+					<h3>Nowoczesne technologie</h3>
+					<p>Nostrum deserunt modi atque iste tenetur id neque, rerum porro!</p>
+				</div>
+			</div>
+			<div class="single-col">
+				<span><i class="fas fa-birthday-cake"></i></span>
+				<div>
+					<h3>5 lat na rynku</h3>
+					<p>Cum qui molestias nulla itaque, culpa excepturi odit ipsa? Ipsa.</p>
+				</div>
+			</div>	
+			<div class="single-col">
+				<span><i class="fab fa-html5"></i></span>
+				<div>
+					<h3>Najlepsze rozwiązania</h3>
+					<p>Quaerat nisi corporis sint deserunt, soluta nam non facilis consequatur?</p>
+				</div>
+			</div>
+			<div class="single-col">
+				<span><i class="fas fa-code"></i></span>
+				<div>
+					<h3>Lepsze rozwiązania</h3>
+					<p>Explicabo neque architecto iure, eligendi expedita aperiam aliquam ipsum molestiae!</p>
+				</div>
+			</div>
+			<div class="single-col">
+				<span><i class="fas fa-address-card"></i></span>
+				<div>
+					<h3>Doświadczony zespół</h3>
+					<p>Exercitationem, nulla veniam amet nobis vero autem explicabo esse distinctio?</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section statistics -->
+	<section>
+		<div class="container">
+			<div class="col">
+				<div class="statistics-content">
+					<h3>1000</h3>
+					<p>Zadowolonych klientów</p>
+				</div>
+			</div>
+			<div class="col">
+				<div class="statistics-content">
+					<h3>300</h3>
+					<p>Zrealizowanych projektów</p>
+				</div>
+			</div>
+			<div class="col">
+				<div class="statistics-content">
+					<h3>5</h3>
+					<p>Lat działalności</p>
+				</div>
+			</div>
+			<div class="col">
+				<div class="statistics-content">
+					<h3>250</h3>
+					<p>Innych ważnych rzeczy</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section parallax -->
+	<section>
+		 <div class="photo-banner-inner">
+			 <div class="container">
+				 <h2>Przykładowy baner parallax</h2>
+				 <button class="btn">Zobacz</button>
+			 </div>
+		 </div>
+	</section>
+
+	<!-- Section Team-members -->
+	<section>
+		<div class="container">
+			<div class="section-title">
+				<h2>Poznaj nas</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aspernatur.</p>
+			</div>
+			<div>
+				<img src="images/team_1.jpg" alt="Mateusz, członek teamu">
+				<h3>Mateusz</h3>
+				<span>Programista JavaScript</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aspernatur quibusdam quaerat. Rem repudiandae odio mollitia itaque, nostrum eveniet exercitationem!</p>
+				<ul>
+					<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#" class="googleplus"><i class="fab fa-google-plus-g"></i></a></li>
+					<li><a href="#" class="linkedin"></a><i class="fab fa-linkedin-in"></i></li>
+				</ul>
+			</div>
+			<div>
+				<img src="images/team_1.jpg" alt="Maciej, członek teamu">
+				<h3>Maciej</h3>
+				<span>Programista PHP</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aspernatur quibusdam quaerat. Rem repudiandae odio mollitia itaque, nostrum eveniet exercitationem!</p>
+				<ul>
+					<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#" class="googleplus"><i class="fab fa-google-plus-g"></i></a></li>
+					<li><a href="#" class="linkedin"></a><i class="fab fa-linkedin-in"></i></li>
+				</ul>
+			</div>
+			<div>
+				<img src="images/team_1.jpg" alt="Janusz, członek teamu">
+				<h3>Janusz</h3>
+				<span>Designer</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aspernatur quibusdam quaerat. Rem repudiandae odio mollitia itaque, nostrum eveniet exercitationem!</p>
+				<ul>
+					<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#" class="googleplus"><i class="fab fa-google-plus-g"></i></a></li>
+					<li><a href="#" class="linkedin"></a><i class="fab fa-linkedin-in"></i></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section reviews-->
+	<section>
+		<div class="container">
+			<div class="section-title">
+				<h2>Opinie naszych klientów</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, aspernatur.</p>
+			</div>
+			<div class="reviews-content">
+				<ul>
+					<li>
+						<blockquote> 
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolore quo veniam, architecto similique quasi.</p>
+							<cite>Chuck</cite>
+						</blockquote>
+					</li>
+					<li>
+						<blockquote> 
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolore quo veniam, architecto similique quasi.</p>
+							<cite>John</cite>
+						</blockquote>
+					</li>
+					<li>
+						<blockquote> 
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolore quo veniam, architecto similique quasi.</p>
+							<cite>Mohammad</cite>
+						</blockquote>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	
+
+	<!-- Scripts -->
+	<!-- build:js -->
+	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>
+	<!-- endbuild  -->
+
+	<!-- Font Awesome CDN -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </body>
 </html>
