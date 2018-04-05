@@ -26,9 +26,9 @@ var config = {
   imgout: 'dist/img/',
   htmlout: 'dist/',
   scssout: 'src/css/',
-  cssoutname: 'style.css',
+  cssoutname: 'main.css',
   jsoutname: 'script.js',
-  cssreplaceout: 'css/style.css',
+  cssreplaceout: 'css/main.css',
   jsreplaceout: 'js/script.js'
 };
 

@@ -1,1 +1,32 @@
-$color-bg: red;
+//Text colors
+$basic-text-color: #888;
+$basic-header-color: #434343;
+$bright-text-color: #D4D4D4;
+$brightest-text-color: #FFF;
+$menu-link-color: #3A3C43;
+
+//Accent color
+$accent-color: #45B6AF;
+
+//Frames
+$basic-border-color: #DDD;
+
+//Portfolio boxes
+$box-portfolio-background: lighten($accent-color, 85%);
+
+//Background colors
+$basic-background: #FFF;
+$alternate-background: #EEE;
+$footer-background: #43444D;
+$footer-copt-background: #31323A;
+
+//Footer
+$footer-social-borders: #535353;
+$footer-social-icons: #EBEBEB;
+$footer-post-date: #B4B4B4;
+
+//Slider
+$slider-control-background: #C2C2C2;
+
+//Reviews
+$reviews-text: #A6A6A6;
