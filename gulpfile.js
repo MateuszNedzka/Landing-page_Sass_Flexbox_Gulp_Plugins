@@ -38,7 +38,8 @@ gulp.task('reload', function() {
 
 gulp.task('serve', ['sass'], function() {
   browserSync({
-    server: config.src
+    server: config.src,
+    browser: "chrome"
   });
 
   gulp.watch([config.htmlin, config.jsin], ['reload']);

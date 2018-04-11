@@ -1,0 +1,80 @@
+//Alignment, positioning
+@mixin center-text {
+    text-align: center;
+}
+
+//Flex styles - to be continue
+// @mixin flex-container{
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
+// @mixin col-one-third{
+//     flex: 1 1 33%;
+// }
+
+// @mixin col-one-fourth{
+//     flex: 1 1 300px;
+// }
+
+//Vertical alignment
+
+//Visibility
+@mixin invisible {
+    display: none;
+}
+
+//Sizes
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+//List
+@mixin list-style-type {
+    list-style-type: none;
+}
+
+// Frames
+@mixin section-border-top($border-color: $baxic-border-color) {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-style: $border-color;
+}
+
+@mixin section-border-bottom($border-color: $baxic-border-color) {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-style: $border-color;
+}
+
+//Hiding
+@mixin hide {
+    opacity: 0;
+}
+
+@mixin show {
+    opacity: 1;
+}
+
+//Basic transition 0.2s
+@mixin basic-transition {
+    transition: all 0.2s ease-in-out;
+}
+
+//Variable transition
+@mixin variable-transition($length) {
+    transition: all $length ease-in-out;
+}
+
+//Tramslate 3D
+@mixin translate3d($move-x, $move-y, $move-z) {
+    transform: translateX(move-x);
+    transform: translateY(move-y);
+    transform: translateZ(move-z);
+}
+
+//Overlay
+@mixin dark-overlay {
+    background: none repeat 0 0 rgba(30, 30, 30, 0.5);
+}
